@@ -1,0 +1,13 @@
+GET http://localhost:8080/chat?message=オウムを訓練するベストな方法は何ですか?
+
+GET http://localhost:8080/image?message=Javaのマスコットキャラクターの画像
+
+POST http://localhost:8080/speech
+Content-Type: application/json
+
+{
+  "message": "今日はJava on Azure Day 2024ですね！楽しみです。"
+}
+
+GET http://localhost:8080/assistant?message=方程式 `3x %2B 11 = 14` を解きたいです。ソースコードを活用して助けてくれますか？
+# （補足：`%2B` は `+` のエンコードです）
